@@ -1,3 +1,5 @@
+@import 'https://js.arcgis.com/4.22/@arcgis/core/assets/esri/themes/light/main.css';
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -10,4 +12,28 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.app {
+  height: 100vh;
+}
+
+.overlay {
+  /*position: absolute;*/
+  width: 30%;
+  height: 100%;
+  /*top: 0;*/
+  /*right: 0;*/
+}
+.list {
+  overflow-y: scroll;
+  height: 100%;
+}
+
+.mapDiv {
+  width: 70%;
+}
+
+.Riots {
+
 }

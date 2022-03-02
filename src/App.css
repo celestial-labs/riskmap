@@ -36,3 +36,13 @@
     transform: rotate(360deg);
   }
 }
+
+.mapDiv {
+  height: 100vh;
+}
+
+.esriLegendLayer {
+  position: absolute;
+  bottom:2%;
+  left:10px;
+}

@@ -3,6 +3,9 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import esriConfig from "@arcgis/core/config";
+
+esriConfig.apiKey = "AAPKf1599745e9024d9396b3bddbe87b3a1fr2B9HbZYST87PjBwi8Ig6bkG-vuFsNpX-s_GqLw1_DKD4dzf8fjD0cizqg-Hl8IG";
 
 ReactDOM.render(
   <React.StrictMode>
@@ -11,7 +14,4 @@ ReactDOM.render(
   document.getElementById('root')
 );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 reportWebVitals();
